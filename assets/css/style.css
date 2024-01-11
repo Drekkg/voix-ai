@@ -24,6 +24,7 @@ header {
   display: flex;
   justify-content: space-around;
   box-shadow: 0 2px 4px black;
+  z-index: 99;
 }
 
 header > h1 {
@@ -59,20 +60,20 @@ main {
 }
 
 #burger-menu li {
-list-style: none;
-margin: 0;
+  list-style: none;
+  margin: 0;
 }
+
 #burger-menu li a {
   text-decoration: none;
   color: #054a91;
   width: 100%;
-  font-size: .6rem;
+  font-size: 0.6rem;
   padding: 0.2rem;
   /* margin: 1rem; */
-  
- 
 }
-#main-content h2, h3 {
+#main-content h2,
+h3 {
   text-align: center;
   padding: 2rem 2rem 0 2rem;
   color: #245784;
@@ -80,7 +81,7 @@ margin: 0;
 #main-content p {
   padding: 2rem 2rem 0 2rem;
   color: #245784;
- text-align: center;
+  text-align: center;
 }
 
 #main-content hr {
@@ -108,14 +109,26 @@ margin: 0;
   background-color: #054a91;
   color: #dbe4ee;
 }
-#main-content > div {
+#button-div {
   padding-bottom: 4rem;
   padding-top: 1rem;
 }
+
 #main-content a {
   text-decoration: none;
- 
+
   bottom: 70%;
+}
+
+.sample {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+}
+audio {
+  width: 15rem;
+  height: 2.5rem;
 }
 
 footer {
