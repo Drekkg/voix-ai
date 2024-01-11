@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+a i:hover {
+  color: #7582c7;
+}
+
+
 /* header styles */ /* coolors: 054a91, 3e7cb1, 81a4cd, dbe4ee, f17300 */
 
 header {
@@ -39,7 +44,7 @@ header h1 {
 }
 hr {
   border-top: 1px solid #054a91;
-}
+  }
 
 /* main content */
 
@@ -133,6 +138,29 @@ h3 {
 #sample p {
   padding: .5rem 0;
 }
+
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Roboto", sans-serif;
+  color: #3e7cb1;
+  border-radius: 8%;
+}
+#signup-form button {
+  background-color: #393775;
+  margin: 1rem auto;
+  width: 6rem;
+  color: whitesmoke;
+  border-radius: 2rem;
+  box-shadow: 1px 2px black;
+}
+  
+
 audio {
  
   filter: sepia(90%) saturate(70%) grayscale(7) contrast(200%) drop-shadow(2px 2px);
@@ -143,7 +171,7 @@ audio {
 
 footer {
   position: fixed;
-  bottom: 0;
+    bottom: 0;
   width: 100%;
   background-color: #054a91;
   height: 3rem;
@@ -156,6 +184,14 @@ footer i {
   color: #dbe4ee;
   font-size: 1.3rem;
 }
-a i:hover {
-  color: #7582c7;
+.signup {
+
+
+}
+
+.list-style {
+  color:#7582c7;
+  margin:0 1rem;
+  list-style: none;
+
 }
