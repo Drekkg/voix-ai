@@ -13,6 +13,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+a {
+  text-decoration: none;
+}
 
 /* header styles */ /* coolors: 054a91, 3e7cb1, 81a4cd, dbe4ee, f17300 */
 
@@ -27,7 +30,7 @@ header {
   z-index: 99;
 }
 
-header > h1 {
+header h1 {
   font-family: "Open Sans", sans-serif;
   color: #054a91;
   font-size: 3rem;
@@ -66,7 +69,6 @@ main {
 }
 
 #burger-menu li a {
-  text-decoration: none;
   color: #054a91;
   width: 100%;
   font-size: 0.6rem;
