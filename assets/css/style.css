@@ -42,6 +42,7 @@ hr {
 
 main {
   margin-top: 4.8rem;
+  padding-bottom: 4.8rem;
   width: 100%;
   flex-grow: 1;
   flex-direction: column;
@@ -110,7 +111,7 @@ h3 {
   color: #dbe4ee;
 }
 #button-div {
-  padding-bottom: 4rem;
+  
   padding-top: 1rem;
 }
 
@@ -120,11 +121,15 @@ h3 {
   bottom: 70%;
 }
 
-.sample {
+#sample {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   
+}
+#sample p {
+  padding: .5rem 0;
 }
 audio {
   width: 15rem;
