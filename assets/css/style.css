@@ -63,10 +63,11 @@ main {
   /* create an opaque bg image using a gradient*/
   background: linear-gradient(
       rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.6)
+      rgba(255, 255, 255, 0.4)
     ),
     url("../images/photo-mic.jpg") no-repeat center center/cover;
 }
+   
 input {
   border-radius: 0.6rem;
   padding: 0.3rem;
@@ -96,8 +97,6 @@ nav {
   color: #054a91;
 }
 
-#menu {
-}
 
 #menu > li {
   margin-bottom: 1em;
