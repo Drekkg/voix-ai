@@ -19,6 +19,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: #55576d;
 }
 
 a i:hover {
@@ -45,6 +46,7 @@ header h1 {
   padding: 0.3rem 0.8rem;
   letter-spacing: 1.6px;
 }
+
 hr {
   border-top: 1px solid #054a91;
 }
@@ -71,24 +73,49 @@ input {
   font-size: 1.1rem;
 }
 
-#burger-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+#nav-toggle {
+  display: none;
 }
 
-#burger-menu li {
-  list-style: none;
-  margin: 0;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
-
-#burger-menu li a {
-  color: #054a91;
+nav {
+  position: absolute;
+  background-color: #cdd8e4;
   width: 100%;
-  font-size: 0.9rem;
-  padding: 0.2rem;
-  /* margin: 1rem; */
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
 }
+.nav-toggle-label {
+  margin-top: 1rem;
+  font-size: 2.6rem;
+  color: #054a91;
+}
+
+#menu {
+}
+
+#menu > li {
+  margin-bottom: 1em;
+  color: #cd81c8;
+}
+
+#burger-menu {
+  margin-top: .5rem;
+  letter-spacing: 4px;
+  font-size: 110%;
+  list-style-type: none;
+  
+}
+
+#burger-menu > li {
+  margin-bottom: 1em;
+}
+
 #main-content h2,
 h3 {
   text-align: center;
