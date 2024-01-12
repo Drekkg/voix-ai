@@ -64,6 +64,8 @@ main {
 }
 input {
   border-radius: .2rem;
+  padding: .3rem;
+
 }
 
 #burger-menu {
@@ -162,7 +164,27 @@ h3 {
   border-radius: 2rem;
   box-shadow: 1px 2px black;
 }
+
+#thank-you-main {
+  background: url("../images/way-to-go.jpg") no-repeat center center/cover;
+}
+#thank-you-main-section > h2, #thank-you-main-section > h3  {
+  text-align: center;
+  color: #255993;
+  letter-spacing: .1rem;
+  padding: 0.8rem 0.5rem 0.2rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.thank-you-div {
+  margin-top: 20rem;
+  padding-bottom:1rem; 
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.6);
   
+
+}
 
 audio {
  
