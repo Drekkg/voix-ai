@@ -117,7 +117,7 @@ h3 {
   background-color: #f17300;
   padding: 0.6rem;
   border-radius: 3rem;
-  margin-top: 0rem;
+  margin-top: 0.3rem;
   box-shadow: 1px 2px black;
 }
 #landing-page-button:hover {
@@ -219,9 +219,9 @@ footer i {
 }
 
 .list-style {
-  color: #3e7cb1;
+  color: #20405a;
   margin: 0 1rem;
   list-style: none;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
