@@ -7,6 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 body {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
@@ -175,11 +179,12 @@ nav {
   flex-direction: column;
   width: 80%;
   padding: 1rem;
-  margin: 1rem;
+  margin: 1.3rem;
   background-color: rgba(255, 255, 255, 0.2);
   font-family: "Roboto", sans-serif;
   color: #3e7cb1;
   border-radius: 8%;
+  align-items: center;
 }
 #signup-form button {
   background-color: #393775;
@@ -257,3 +262,45 @@ footer i {
   text-align: center;
   font-size: 1rem;
 }
+ /* responsive design Tablet */
+ @media screen and (min-width: 768px ) {
+  /* * {
+    font-size: 1.3rem;
+  } */
+  input {
+    max-width: 19rem;
+  }
+  #signup-form {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .nav-toggle-label{
+  font-size: 3rem; 
+  }
+  #signup-form {
+    font-size: 1.3rem;
+  }
+  footer i {
+    font-size: 1.8rem;
+  }
+  #thank-you-main {
+    background-position-y: 45%;
+    
+    
+  }
+  .thank-you-div {
+    width: 30%;
+    margin-bottom: 15rem;
+  }
+ }
+ @media screen and (min-width: 1024px ) {
+  main {
+  
+    background-size: 40%;
+    background-position: left;
+    background-color: rgb(30, 30, 30);
+  }
+  #signup-form {
+    background-color: rgba(30, 30, 30, 0);
+  }
+ }
