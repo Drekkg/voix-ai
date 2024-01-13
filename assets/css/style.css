@@ -303,4 +303,15 @@ footer i {
   #signup-form {
     background-color: rgba(30, 30, 30, 0);
   }
+  #thank-you-main {
+    background-size: 60%;
+    background-color: #d2d2d2;
+    background-position-y: -18rem;
+  }
+  #thank-you-main section {
+    max-width: 60%;
+  }
+  .thank-you-div {
+    
+  }
  }
