@@ -74,7 +74,6 @@ main {
     url("../images/photo-mic.jpg") no-repeat center center/cover;
 }
 
-
 #main-content h2,
 h3 {
   text-align: center;
@@ -192,7 +191,6 @@ input {
   color: #054a91;
 }
 
-
 /* thank you page style*/
 #thank-you-main {
   background: url("../images/way-to-go.jpg") no-repeat center center/cover;
@@ -211,7 +209,6 @@ input {
   padding-bottom: 1rem;
   width: 75%;
   background-color: rgba(255, 255, 255, 0.6);
-  
 }
 #thank-you-div > h3 {
   color: #245784;
@@ -263,9 +260,32 @@ footer i {
 }
 /* responsive design Tablet */
 @media screen and (min-width: 768px) {
-  /* * {
-    font-size: 1.3rem;
-  } */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    background-color: #81a4cd;
+    
+  }
+  #burger-menu {
+    display: flex;
+  }
+  #burger-menu li {
+    padding: 1rem; 
+  }
+  #burger-menu li a {
+    color: aliceblue;
+    font-size: larger;   
+  }
+#burger-menu li a:hover {
+color: #3e7cb1;
+}
+
+  .nav-toggle-label {
+    display: none;
+  }
   input {
     max-width: 19rem;
   }
@@ -278,7 +298,7 @@ footer i {
   .nav-toggle-label {
     font-size: 3rem;
   }
- 
+
   footer i {
     font-size: 1.8rem;
   }
