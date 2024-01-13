@@ -1,22 +1,20 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
-/* html * {
-  outline: 1px solid red;
- } */
-
+/* general styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* general styles */
 body {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
 }
+
+/* link styles */
 a {
   text-decoration: none;
   color: #55576d;
@@ -26,7 +24,7 @@ a i:hover {
   color: #7582c7;
 }
 
-/* header styles */ /* coolors: 054a91, 3e7cb1, 81a4cd, dbe4ee, f17300 */
+/* header styles */  /* coolors: 054a91, 3e7cb1, 81a4cd, dbe4ee, f17300 */
 
 header {
   background-color: #81a4cd;
@@ -51,7 +49,7 @@ hr {
   border-top: 1px solid #054a91;
 }
 
-/* main content */
+/* main content  index */
 
 main {
   margin-top: 4.8rem;
@@ -74,6 +72,55 @@ input {
   font-size: 1.1rem;
 }
 
+
+
+
+#main-content h2,
+h3 {
+  text-align: center;
+  padding: 2rem 2rem 0 2rem;
+  color: #245784;
+}
+#main-content p {
+  padding: 2rem 2rem 0 2rem;
+  color: #245784;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#main-content hr {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2rem;
+}
+#main-content > div {
+  display: flex;
+  justify-content: center;
+}
+
+/* button styles */
+#landing-page-button {
+  color: #054a91;
+  font-weight: bold;
+  background-color: #f17300;
+  padding: 0.6rem;
+  border-radius: 3rem;
+  margin-top: 0.3rem;
+  box-shadow: 1px 2px black;
+}
+#landing-page-button:hover {
+  background-color: #7582c7;
+  color: aliceblue;
+}
+#landing-page-button:active {
+  background-color: #054a91;
+  color: #dbe4ee;
+}
+#button-div {
+  padding-top: 1rem;
+}
+
+/* nav toggle hamburger style */
 #nav-toggle {
   display: none;
 }
@@ -98,11 +145,6 @@ nav {
 }
 
 
-#menu > li {
-  margin-bottom: 1em;
-  color: #cd81c8;
-}
-
 #burger-menu {
   margin-top: .5rem;
   letter-spacing: 4px;
@@ -114,63 +156,12 @@ nav {
 #burger-menu > li {
   margin-bottom: 1em;
 }
-
-#main-content h2,
-h3 {
-  text-align: center;
-  padding: 2rem 2rem 0 2rem;
-  color: #245784;
-}
-#main-content p {
-  padding: 2rem 2rem 0 2rem;
-  color: #245784;
-  text-align: center;
-  line-height: 2rem;
-}
-
-#main-content hr {
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 2rem;
-}
-#main-content > div {
-  display: flex;
-  justify-content: center;
-}
-#landing-page-button {
-  color: #054a91;
-  font-weight: bold;
-  background-color: #f17300;
-  padding: 0.6rem;
-  border-radius: 3rem;
-  margin-top: 0.3rem;
-  box-shadow: 1px 2px black;
-}
-#landing-page-button:hover {
-  background-color: #7582c7;
-}
-#landing-page-button:active {
-  background-color: #054a91;
-  color: #dbe4ee;
-}
-#button-div {
-  padding-top: 1rem;
-}
-
 #main-content a {
   text-decoration: none;
   bottom: 70%;
 }
 
-#sample {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#sample p {
-  padding: 0.5rem 0;
-}
-
+/* sign up form */
 #signup-form {
   display: flex;
   flex-direction: column;
@@ -191,7 +182,13 @@ h3 {
   border-radius: 2rem;
   box-shadow: 1px 2px black;
 }
+#signup-form button:hover {
+  background-color: #7582c7;
+  color: aliceblue;
+}
 
+
+/* thank you page style*/
 #thank-you-main {
   background: url("../images/way-to-go.jpg") no-repeat center center/cover;
 }
@@ -210,24 +207,25 @@ h3 {
   width: 75%;
   background-color: rgba(255, 255, 255, 0.6);
 }
-
+/* audio control styles */
 audio {
   filter: sepia(90%) saturate(70%) grayscale(7) contrast(200%)
     drop-shadow(2px 2px);
   width: 15rem;
   height: 2.5rem;
 }
-/* .instructions {
+
+#sample {
   display: flex;
   flex-direction: column;
-  clear: both;
-  margin: .5rem;
-  padding: 1rem;
-  border-radius: 5%;
+  align-items: center;
+}
+#sample p {
+  padding: 0.5rem 0;
+}
 
-  background-color: rgba(255, 255, 255, 0.9);
-} */
 
+/* footer styles */
 footer {
   position: fixed;
   bottom: 0;
