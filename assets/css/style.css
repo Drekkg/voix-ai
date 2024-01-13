@@ -68,7 +68,7 @@ main {
   /* create an opaque bg image using a gradient */
   background: linear-gradient(
       rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.4)
+      rgba(255, 255, 255, 0.8)
     ),
     url("../images/photo-mic.jpg") no-repeat center center/cover;
 }
