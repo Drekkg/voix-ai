@@ -23,19 +23,19 @@ a {
   text-decoration: none;
   color: #55576d;
 }
- a h1:hover {
-  color:#dbe4ee;
- }
- 
- a:hover {
+a h1:hover {
+  color: #dbe4ee;
+}
+
+a:hover {
   color: #054a91;
- }
+}
 
 a i:hover {
   color: #7582c7;
 }
 
-/* header styles */  /* coolors: 054a91, 3e7cb1, 81a4cd, dbe4ee, f17300 */
+/* header styles */ /* coolors: 054a91, 3e7cb1, 81a4cd, dbe4ee, f17300 */
 
 header {
   background-color: #81a4cd;
@@ -70,32 +70,20 @@ main {
   flex-direction: column;
   background-color: #cdd8e4;
   /* create an opaque bg image using a gradient */
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
+  background: linear-gradient(rgba(60, 60, 60, 0.6), rgba(60, 60, 60, 0.6)),
     url("../images/photo-mic.jpg") no-repeat center center/cover;
 }
-   
-input {
-  border-radius: 0.6rem;
-  padding: 0.3rem;
-  font-size: 1.1rem;
-  color: #054a91;
-}
-
-
 
 
 #main-content h2,
 h3 {
   text-align: center;
   padding: 2rem 2rem 0 2rem;
-  color: #245784;
+  color: #8ea5d6;
 }
 #main-content p {
   padding: 2rem 2rem 0 2rem;
-  color: #18334b;
+  color: #fafdfe;
   text-align: center;
   line-height: 2rem;
 }
@@ -156,13 +144,11 @@ nav {
   color: #054a91;
 }
 
-
 #burger-menu {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   letter-spacing: 4px;
   font-size: 110%;
   list-style-type: none;
-  
 }
 
 #burger-menu > li {
@@ -177,12 +163,12 @@ nav {
 #signup-form {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 88%;
   padding: 1rem;
   margin: 1.3rem;
   background-color: rgba(255, 255, 255, 0.2);
   font-family: "Roboto", sans-serif;
-  color: #3e7cb1;
+  color: aliceblue;
   border-radius: 8%;
   align-items: center;
 }
@@ -199,6 +185,12 @@ nav {
   background-color: #7582c7;
   color: aliceblue;
 }
+input {
+  border-radius: 0.6rem;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  color: #054a91;
+}
 
 
 /* thank you page style*/
@@ -214,11 +206,15 @@ nav {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.thank-you-div {
-  margin-top: 20rem;
+#thank-you-div {
+  margin-top: 110%;
   padding-bottom: 1rem;
   width: 75%;
   background-color: rgba(255, 255, 255, 0.6);
+  
+}
+#thank-you-div > h3 {
+  color: #245784;
 }
 /* audio control styles */
 audio {
@@ -236,7 +232,6 @@ audio {
 #sample p {
   padding: 0.5rem 0;
 }
-
 
 /* footer styles */
 footer {
@@ -256,14 +251,15 @@ footer i {
 }
 
 .list-style {
-  color: #18334b;
+  color: aliceblue;
   margin: 0 1rem;
   list-style: none;
   text-align: center;
   font-size: 1rem;
+  line-height: 1.4rem;
 }
- /* responsive design Tablet */
- @media screen and (min-width: 768px ) {
+/* responsive design Tablet */
+@media screen and (min-width: 768px) {
   /* * {
     font-size: 1.3rem;
   } */
@@ -273,29 +269,26 @@ footer i {
   #signup-form {
     align-items: center;
     margin: 0 auto;
-  }
-  .nav-toggle-label{
-  font-size: 3rem; 
-  }
-  #signup-form {
     font-size: 1.3rem;
+    width: 40%;
   }
+  .nav-toggle-label {
+    font-size: 3rem;
+  }
+ 
   footer i {
     font-size: 1.8rem;
   }
   #thank-you-main {
     background-position-y: 45%;
-    
-    
   }
   .thank-you-div {
     width: 30%;
     margin-bottom: 15rem;
   }
- }
- @media screen and (min-width: 1024px ) {
+}
+@media screen and (min-width: 1024px) {
   main {
-  
     background-size: 40%;
     background-position: left;
     background-color: rgb(30, 30, 30);
@@ -312,6 +305,5 @@ footer i {
     max-width: 60%;
   }
   .thank-you-div {
-    
   }
- }
+}
