@@ -85,7 +85,6 @@ h3 {
   color: #fafdfe;
   text-align: center;
   line-height: 2rem;
-  
 }
 
 #main-content hr {
@@ -194,8 +193,10 @@ input {
 
 /* thank you page style*/
 #thank-you-main {
-  background: url("../images/way-to-go.jpg") no-repeat center center/cover;
+  background: url("../images/way-to-go.jpg") no-repeat center
+    center/cover;
 }
+
 #thank-you-main-section > h2,
 #thank-you-main-section > h3 {
   text-align: center;
@@ -268,21 +269,20 @@ footer i {
     width: fit-content;
     padding-right: 1rem;
     background-color: #81a4cd;
-    
   }
   #burger-menu {
     display: flex;
   }
   #burger-menu li {
-    padding: 1rem; 
+    padding: 1rem;
   }
   #burger-menu li a {
     color: aliceblue;
-    font-size: larger;   
+    font-size: larger;
   }
-#burger-menu li a:hover {
-color: #3e7cb1;
-}
+  #burger-menu li a:hover {
+    color: #3e7cb1;
+  }
 
   .nav-toggle-label {
     display: none;
@@ -304,11 +304,11 @@ color: #3e7cb1;
     font-size: 1.8rem;
   }
   #thank-you-main {
-    background-position-y: 45%;
+ height: 50rem;
   }
-  .thank-you-div {
+  #thank-you-div {
     width: 30%;
-    margin-bottom: 15rem;
+    margin-top: 15rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -321,15 +321,17 @@ color: #3e7cb1;
     background-color: rgba(30, 30, 30, 0);
   }
   #thank-you-main {
-    background-size: 60%;
-    background-color: #d2d2d2;
-    background-position-y: -18rem;
+    height: 70rem;
   }
-  #thank-you-main section {
-    max-width: 60%;
+  #thank-you-main-section {
+    max-width: 30%;
   }
   #main-content hr {
     max-width: 40%;
     margin: 2rem auto 0 auto;
+  }
+  #thank-you-div {
+    margin-bottom: 50%;
+    max-width: 30%;
   }
 }
