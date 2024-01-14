@@ -34,6 +34,10 @@ a:hover {
 a i:hover {
   color: #7582c7;
 }
+.active {
+  border-bottom: solid 2px #85879e;
+  
+}
 
 /* header styles */ /* coolors: 054a91, 3e7cb1, 81a4cd, dbe4ee, f17300 */
 
@@ -283,7 +287,9 @@ footer i {
   #burger-menu li a:hover {
     color: #3e7cb1;
   }
-
+  .active {
+    border-bottom: solid 2px  #fafdfe;
+  }
   .nav-toggle-label {
     display: none;
   }
