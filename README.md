@@ -5,4 +5,4 @@ or audio books - in fact anybody that needs audio narration.
 After landing on the home page the user would click on the link to the samples. After listenig to the samples,
 and being suitably impressed, they would then signup for a free account, which would acquaint the user with the functionality and usefulness of Voix-ai. Professional and frequent users would become monthly subscribers.
 
-![Alt text](assets/images/Screenshot from 2024-01-13 23-13-14.png"Voix-ai")
+![screenshot of Voix-ai on am i responsive](asstes/images/screenshot-responsive.png)
