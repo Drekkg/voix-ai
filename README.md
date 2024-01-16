@@ -46,3 +46,14 @@ would want to use our software.
 - The samples are there to fascinate the user and compel them to sign up.
 
 ![screenshot of samples page](assets/images/screenshot-samples.png)
+
+- __Sign Up Page__
+- The Sign Up page contains a form so that the user can sign up for a free account.
+- The form is responsive,  with a styled submit button underneath.
+- Text below the sign up form informs the user about the benefita of signing up and also the benefits and price of subscribing.
+- the user will be asked to submit their full name, create a user name and submit their email address.
+- After submission the user will be referred to a thank you page.
+- The form checks that all input fields are filled out and a valid email address is supplied.
+
+![screenshot of sigup form page](assets/images/screenshot-signup.png)
+
