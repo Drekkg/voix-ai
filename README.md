@@ -65,3 +65,6 @@ would want to use our software.
 
 ![screenshot of thank you page](assets/images/screenshot-thank-you.png)
 
+### Future Features to come.
+-__Text Input Page__
+- A feature to be added in the future, will be a text input box. Which will accept inputted text from the user and turn it into a narrated audio.
