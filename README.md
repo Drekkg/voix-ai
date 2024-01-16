@@ -57,3 +57,11 @@ would want to use our software.
 
 ![screenshot of sigup form page](assets/images/screenshot-signup.png)
 
+- __Thank You Page__
+- After succesful submission the user is rediredćted to a thank you page.
+- The Thank You page displays a message thanking the user for joining and instructing them to check their emails 
+- The background image is a man giving the thumbs up sign. Meant to be light hearted.
+- The thank you page also contains the header and footer. 
+
+![screenshot of thank you page](assets/images/screenshot-thank-you.png)
+
