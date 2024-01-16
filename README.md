@@ -75,3 +75,27 @@ would want to use our software.
  The Github deployed site was checked many times, mainly on mobile devices.
  The site was called up and the landing page was checked for legibility and responsiveness. The links in the header were clicked to ensure the appropriate page was opended. The sample link took me to the samples.html page. The signup link to signup.html. The logo-link in the header also works on all pages and takes the user back to the landing page. The samples all work and play in all browsers and on all devices tested. The sign up form works and requires valid input in all fields. The email field requires an @ sign and trailing letters. After a successful sign up the thank you page is displayed. The thankyou page responsiveness is not 100percent to my liking. It looks and works great on mobile, but on larger screens the image is a little large. 
  The "Click here for Samples" button also didn't work a few times - the problem was tracked to some invalid html and solved(More in Bugs section).
+
+ ## HTML Validation
+ The HTML was validated using NU HTML Validator.
+
+ __Index HTML__
+ ![screenshot of HTML testing](assets/images/screenshot-index-html.png)
+ The first pass failed because of some errors: trailing slashes, incorrectly nested divs.
+
+ __Samples HTML__
+ ![screenshot of HTML samples testing](assets/images/screenshot-sample-html.png)
+ This file had similar problems with trailing slashes.
+
+ __Signup Html__
+ ![screenshot of signup HTML validation](assets/images/screenshot-signup-html.png)
+ This file had similar problems with trailing slashes.
+
+ __Thank You__
+ ![screenshot of Thank You HTML](assets/images/screenshot-thankyou-html.png)
+
+ ## CSS Validation
+The CSS styles file was validated using The W3C validation Service.
+![screenshot of css validation](assets/images/screenshot-style-css.png)
+Checking the CSS file turned up no errors.
+
