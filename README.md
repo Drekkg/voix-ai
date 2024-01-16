@@ -67,4 +67,10 @@ would want to use our software.
 
 ### Future Features to come.
 -__Text Input Page__
-- A feature to be added in the future, will be a text input box. Which will accept inputted text from the user and turn it into a narrated audio.
+- A feature to be added in the future, will be a text input box. Which will accept text input from the user and turn it into a narrated audio.
+ 
+ ## Testing
+ Voix-ai the website was tested on a variety of physical devices: Laptops, larger 27 inch monitors, various Android phones and Tablets. Where it loooked and performed as expected on a variety of browsers(Edge, Chrome, Firefox, Samsung browser). Responsiveness was tested in Google chrome using numerous of simulated devices(Apple iphones, ipads, Google Phones and Samsung).
+
+ The Github deployed site was checked many times, mainly on mobile devices.
+ The site was called up and the landing page was checked for legibility and responsiveness. The links in the header were clicked to ensure the appropriate page was opended.  
