@@ -227,15 +227,15 @@ audio {
   height: 2.5rem;
 }
 
-#sample {
+.sample {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#sample p {
+.sample p {
   padding: 0.5rem 0;
 }
-#sample h3 {
+.sample h3 {
   color: #f17300;
 }
 
