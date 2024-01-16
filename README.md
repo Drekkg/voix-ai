@@ -21,7 +21,7 @@ An outline of features the user can expect.
 - The landing page consists of an image of a microphone, overlayed with text briefly describing
 how the software functions, what the user can expect and a pitch as to why the user 
 would want to use our software. 
-![screenshot of landing-page](assets/images/screenshot-landing-page.png)
+![screenshot of landing-page](assets/images/screenshot-landing-page-new.png)
 
 - __Navigation Button__
 - The landing, Sign-up and Thank you page all contain a button that takes the user to the samples page.
