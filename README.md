@@ -21,21 +21,21 @@ An outline of features the user can expect.
 - The landing page consists of an image of a microphone, overlayed with text briefly describing
 how the software functions, what the user can expect and a pitch as to why the user 
 would want to use our software. 
-![screenshot of landing-page](assets\images\screenshot-landing-page.png)
+![screenshot of landing-page](assets/images/screenshot-landing-page.png)
 
 - __Navigation Button__
 - The landing, Sign-up and Thank you page all contain a button that takes the user to the samples page.
 - The button is a distinctive colour that draws attention to itself. 
 - The aim is to get the user to hear the samples.
 
-![clickable orange button](assets\images\Screenshot-nav-button.png)
+![clickable orange button](assets/images/screenshot-nav-button.png)
 
 - __Footer__
 - The footer is found on all pages including the Thank you page.
 - It contains logos taht are links to websites and social media acoounts that use our software. 
 
 
-![screenshot of footer](assets\images\screenshot-footer.png)
+![screenshot of footer](assets/images/screenshot-footer.png)
 
 - __Samples Page__
 - The Samples page contains four different samples of our voice modelling software.
@@ -45,4 +45,4 @@ would want to use our software.
 - Playback as well as volume is user defined.
 - The samples are there to fascinate the user and compel them to sign up.
 
-![screenshot of samples page](assets\images\screenshot-samples.png)
+![screenshot of samples page](assets/images/screenshot-samples.png)
