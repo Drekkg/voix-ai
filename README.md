@@ -191,6 +191,7 @@ __Media__
 - Logos from fontawesome.com
 - Fonts from Google Fonts.
 - Colour palette from coolors.co
+
 __Programs Used__
 - GIMP image manipulation.
 - Pro Writing Aid - spelling and grammar check.
@@ -200,6 +201,7 @@ __Programs Used__
 - Fire Fox
 - GitHub
 - Stack Overflow
+
 __Acknowledgments__
 - Love Running
 - Malia Havlicek
