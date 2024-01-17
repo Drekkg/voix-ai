@@ -180,3 +180,29 @@ __Deployment on GitHub using GitHub Pages__
 - Copy and paste the link in a browser to view your live site.
 
 ## Credits
+- The footer and responsive menu in the header I re-used code from the "Love Running" project.
+- Stack Overflow for bug fixing and feature implementation.
+__Content__
+- As the technology showcased on Voix-ai doesn't exist, the content was all self created.
+__Media__
+- Samples narrated by Richard Berry.
+- Recorded by Derek Garnett.
+- Photos from pexels.com
+- Logos from fontawesome.com
+- Fonts from Google Fonts.
+- Colour palette from coolors.co
+__Programs Used__
+- GIMP image manipulation.
+- VS Code.
+- Chrome 
+- Chrome DevTools
+- Fire Fox
+- GitHub
+- Stack Overflow
+__Acknowledgments__
+- Love Running
+- Malia Mentor
+
+no ai was harmed in the making of this website - the samples are a real person. 
+
+
