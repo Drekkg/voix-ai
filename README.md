@@ -146,7 +146,37 @@ __Fixed Bugs__
 ## Accessibility Testing
 Voix-ai was tested for accessibilty using Lighthouse.
 
-__Accessibility Scores__
+__Accessibility Audit__
 
 ![screenshot of passing lighthouse score](assets/images/screenshot-lighhouse.png)
 
+## Technologies Used
+__Languages Used__
+- HTML
+- CSS
+
+## Deployment
+__Deployment on GitHub using GitHub Pages__
+- From the GitHub dashboard, click on Repositories.  
+![screenshot of repo](assets/images/screenshot-repos.png)
+- Select and click on the repo you want to deploy.
+![Screenshot repo list](assets/images/screenshot-repos-list.png)
+- Click on settings.
+
+![screenshot settings](assets/images/screenshot-settings.png)
+- On the left hand side scroll and click on Pages.
+
+![screenshot pages](assets/images/screenshot-pages.png)
+- Make sure "Source" is set to "Deploy from branch".
+- On "Branch" Select "Main". Make sure the selected folder is set to "/root".
+![screenshot deploy](assets/images/screenshot-deploy.png)
+- Click Save.
+- Go back to your repository.
+- Scroll down and on the right hand side click on Deployments.
+
+![Screenshot of deployments](assets/images/screenshot-deployed-page.png) 
+- Under the heading "Active Deployments" you will find a link to your deployed site.
+![screenshot active deployments](assets/images/screenshot-active-deployments.png)
+- Copy and paste the link in a browser to view your live site.
+
+## Credits
