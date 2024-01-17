@@ -193,6 +193,7 @@ __Media__
 - Colour palette from coolors.co
 __Programs Used__
 - GIMP image manipulation.
+- Pro Writing Aid - spelling and grammar check.
 - VS Code.
 - Chrome 
 - Chrome DevTools
@@ -201,7 +202,7 @@ __Programs Used__
 - Stack Overflow
 __Acknowledgments__
 - Love Running
-- Malia Mentor
+- Malia Havlicek
 
 no ai was harmed in the making of this website - the samples are a real person. 
 
