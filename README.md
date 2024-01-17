@@ -122,3 +122,26 @@ The CSS styles file was validated using The W3C validation Service.
 ![screenshot of css validation](assets/images/screenshot-style-css.png)
 Checking the CSS file turned up no errors.
 
+## Compatibility and Responsive Testing
+The website was tested using dev tools and the following emulated and real devices:
+| TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
+|-------------------------------|-------------|------------|---------------|
+| Real phone: S20 Ultra         | Chrome 120  | android 13 | M  412 x 915  |
+|             Hauwei p20        | Chrome 120  | android 11 | M  375 x 768  |
+| Real laptop asus              | Firefox 121 | linux pop  | LG 1920 x1080 |      
+| Dev tools emulator: pixel 7   | chrome 120  | android 13 | M  412 x 915  |
+|                     iPhone 12 | firefox 121 |  iOs 14    | M  428 x 926  |
+|           Samsung galaxy fold | Chrome 120  | android 12 | XS 280 x 653  |
+|           Samsung galaxy s8   | firefox 121 | android 8  |  S 360 x 740  |
+| Real tablet: samsung s6       | Chrome 118  | android 10 | L 1600 x 2560 |
+| Real computer:  windows pc    | IE Edge 88  | windows 10 | XL 1920 x 964 |
+
+## Bugs
+__Fixed Bugs__
+- After the first pass through the HTML validator, it threw up an error.
+- I had nested a button element inside an anchor element. Which is not valid HTML.
+- After a bit of searching I found the correct procedure on Stack Overflow. Wrapping the button element in a form element.
+![screenshot of form](assets/images/screenshot-form-element-new.png)  
+__Unfixed Bugs__
+- The responsiveness of the Thank You page could be improved on larger screens.
+- It will be implemented in a future release. 
