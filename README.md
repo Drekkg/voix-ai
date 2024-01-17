@@ -50,7 +50,7 @@ would want to use our software.
 - __Sign Up Page__
 - The Sign Up page contains a form so that the user can sign up for a free account.
 - The form is responsive,  with a styled submit button underneath.
-- Text below the sign up form informs the user about the benefita of signing up and also the benefits and price of subscribing.
+- Text below the sign up form informs the user about the benefits of signing up and also the benefits and price of subscribing.
 - the user will be asked to submit their full name, create a user name and submit their email address.
 - After submission the user will be referred to a thank you page.
 - The form checks that all input fields are filled out and a valid email address is supplied.
@@ -58,7 +58,7 @@ would want to use our software.
 ![screenshot of sigup form page](assets/images/screenshot-signup.png)
 
 - __Thank You Page__
-- After succesful submission the user is rediredćted to a thank you page.
+- After succesful submission the user is redirected to a thank you page.
 - The Thank You page displays a message thanking the user for joining and instructing them to check their emails 
 - The background image is a man giving the thumbs up sign. Meant to be light hearted.
 - The thank you page also contains the header and footer. 
@@ -67,13 +67,13 @@ would want to use our software.
 
 ### Future Features to come.
 -__Text Input Page__
-- A feature to be added in the future, will be a text input box. Which will accept text input from the user and turn it into a narrated audio.
+- A feature to be added in the future, will be a text input box. Which will accept text input from the user and turn it into a narrated audio. Live on the website.
  
  ## Testing
- Voix-ai the website was tested on a variety of physical devices: Laptops, larger 27 inch monitors, various Android phones and Tablets. Where it loooked and performed as expected on a variety of browsers(Edge, Chrome, Firefox, Samsung browser). Responsiveness was tested in Google chrome using numerous of simulated devices(Apple iphones, ipads, Google Phones and Samsung).
+ Voix-ai the website was tested on a variety of physical devices: Laptops, larger 27 inch monitors, various Android phones and Tablets. It also looked and performed as expected on a variety of browsers(Edge, Chrome, Firefox, Samsung browser). Responsiveness was tested in Google chrome using numerous emulated devices(Apple iphones, ipads, Google Phones and Samsung devices).
 
  The Github deployed site was checked many times, mainly on mobile devices.
- The site was called up and the landing page was checked for legibility and responsiveness. The links in the header were clicked to ensure the appropriate page was opended. The sample link took me to the samples.html page. The signup link to signup.html. The logo-link in the header also works on all pages and takes the user back to the landing page. The samples all work and play in all browsers and on all devices tested. The sign up form works and requires valid input in all fields. The email field requires an @ sign and trailing letters. After a successful sign up the thank you page is displayed. The thankyou page responsiveness is not 100percent to my liking. It looks and works great on mobile, but on larger screens the image is a little large. 
+ The site was called up and the landing page was checked for legibility and responsiveness. The links in the header were clicked to ensure the appropriate page was opended. The sample link took me to the samples.html page. The signup link to signup.html. The logo-link in the header also works on all pages and takes the user back to the landing page. The samples all work and play in all browsers and on all tested devices. The sign up form works and requires valid input in all fields. The email field requires a valid email address. After a successful sign up the thank you page is displayed. The thank you page's responsiveness is not 100percent to my liking. It looks and works great on mobile, but on larger screens the image is a little large. 
  The "Click here for Samples" button also didn't work a few times - the problem was tracked to some invalid html and solved(More in Bugs section).
 
  ## HTML Validation
