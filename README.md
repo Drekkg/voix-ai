@@ -142,6 +142,11 @@ __Fixed Bugs__
 - I had nested a button element inside an anchor element. Which is not valid HTML.
 - After a bit of searching I found the correct procedure on Stack Overflow. Wrapping the button element in a form element.
 ![screenshot of form](assets/images/screenshot-form-element-new.png)  
-__Unfixed Bugs__
-- The responsiveness of the Thank You page could be improved on larger screens.
-- It will be implemented in a future release. 
+
+## Accessibility Testing
+Voix-ai was tested for accessibilty using Lighthouse.
+
+__Accessibility Scores__
+
+![screenshot of passing lighthouse score](assets/images/screenshot-lighhouse.png)
+
