@@ -66,15 +66,22 @@ would want to use our software.
 ![screenshot of thank you page](assets/images/screenshot-thank-you.png)
 
 ### Future Features to come.
--__Text Input Page__
+__Text Input Page__
 - A feature to be added in the future, will be a text input box. Which will accept text input from the user and turn it into a narrated audio. Live on the website.
  
  ## Testing
- Voix-ai the website was tested on a variety of physical devices: Laptops, larger 27 inch monitors, various Android phones and Tablets. It also looked and performed as expected on a variety of browsers(Edge, Chrome, Firefox, Samsung browser). Responsiveness was tested in Google chrome using numerous emulated devices(Apple iphones, ipads, Google Phones and Samsung devices).
+ - Voix-ai the website was tested on a variety of physical devices: Laptops, larger 27 inch monitors, various Android phones and Tablets. It also looked and performed as expected on a variety of browsers(Edge, Chrome, Firefox, Samsung browser). Responsiveness was tested in Google chrome using numerous emulated devices(Apple iphones, ipads, Google Phones and Samsung devices).
 
- The Github deployed site was checked many times, mainly on mobile devices.
- The site was called up and the landing page was checked for legibility and responsiveness. The links in the header were clicked to ensure the appropriate page was opended. The sample link took me to the samples.html page. The signup link to signup.html. The logo-link in the header also works on all pages and takes the user back to the landing page. The samples all work and play in all browsers and on all tested devices. The sign up form works and requires valid input in all fields. The email field requires a valid email address. After a successful sign up the thank you page is displayed. The thank you page's responsiveness is not 100percent to my liking. It looks and works great on mobile, but on larger screens the image is a little large. 
- The "Click here for Samples" button also didn't work a few times - the problem was tracked to some invalid html and solved(More in Bugs section).
+ - The Github deployed site was checked many times, mainly on mobile devices.
+ - The site was called up and the landing page was checked for legibility and responsiveness.
+ - The links in the header were clicked to ensure the appropriate page was opended. 
+ - The sample link took me to the samples.html page. 
+ - The signup link to signup.html. - The logo-link in the header also works on all pages and takes the user back to the landing page. 
+ - The samples work and play in all browsers and on all tested devices. 
+ - The sign up form works and requires valid input in all fields.
+ - The email field requires a valid email address. 
+ - After a successful sign up the thank you page is displayed. 
+ - The "Click here for Samples" button didn't work after deployment, the problem was tracked to some invalid html and solved(More in Bugs section).
 
  ## HTML Validation
  The HTML was validated using NU HTML Validator.
