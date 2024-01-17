@@ -5,6 +5,7 @@ or audio books - in fact anybody that needs audio narration.
 After landing on the home page the user would click on the link to the samples. After listening to the samples,
 and being suitably impressed, they would then signup for a free account, which would acquaint the user with the functionality and usefulness of Voix-ai. Professional and frequent users would become monthly subscribers.
 
+![screenshot of Voix-ai on am i responsive](assets/images/screenshot-responsive.png)
 ## Live Site 
 Voix-ai deployed live on GitHub.
 - https://drekkg.github.io/voix-ai/
@@ -13,9 +14,9 @@ Voix-ai deployed live on GitHub.
 - A link to the Voix-ai repository.
 https://github.com/Drekkg/voix-ai
 
-![screenshot of Voix-ai on am i responsive](assets/images/screenshot-responsive.png)
 
-
+## Author
+Derek Garnett
 ## Version Control
 GitHub was used for version control of the code for this project.
 
