@@ -81,6 +81,12 @@ would want to use our software.
 
 ![screenshot of thank you page](assets/images/screenshot-thank-you.png)
 
+__404 Not Found__
+- Typing the URL incorrectly will take you to a custom 404 not found page.
+- The user would simply click on the Voix-a.i header link to go backvto the landing page.
+
+![screenshot custom 404 not found](assets/images/screenshot-404-not-found.png)
+
 ### Future Features to come.
 __Text Input Page__
 - A feature to be added in the future will be a text input box. Which will accept text input from the user and turn it into a narrated audio. Live on the website.
