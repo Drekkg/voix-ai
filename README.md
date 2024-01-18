@@ -18,10 +18,19 @@ https://github.com/Drekkg/voix-ai
 ## Author
 Derek Garnett
 ## Version Control
-GitHub was used for version control of the code for this project.
+GitHub was used as version control for the code of this project.
+
+### Naming Convention
+To make the intent of commits more obvious, I attempt to used the following prefix naming convention for my commits:
+ - **doc** documentation based commits
+ - **fix** bug fixes
+ - **feat** new features
+ - **maint** maintenance updates and changes
+
 
 ### Commits
 I was working on my laptop and computer at work. I had  merge issues that I could not unwind so I ditched my first repository and started over, hence a large first commit.
+ 
 
 ## Features
 An outline of features the user can expect.
