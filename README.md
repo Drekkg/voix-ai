@@ -25,7 +25,7 @@ I was working on my laptop and computer at work. I had  merge issues that I coul
 
 ## Features
 An outline of features the user can expect.
-### Existing Feautures
+### Existing Features
 - __Navigation Bar__
 - The Nav Bar is identical on all three pages, making it easier for the user to traverse the website.
 - It contains links to Home, samples and the Signup page.
