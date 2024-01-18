@@ -83,7 +83,7 @@ would want to use our software.
 
 __404 Not Found__
 - Typing the URL incorrectly will take you to a custom 404 not found page.
-- The user would simply click on the Voix-a.i header link to go backvto the landing page.
+- The user would simply click on the Voix-a.i header link to go back to the landing page.
 
 ![screenshot custom 404 not found](assets/images/screenshot-404-not-found.png)
 
@@ -123,6 +123,9 @@ __Text Input Page__
  __Thank You__
  ![screenshot of Thank You HTML](assets/images/screenshot-thankyou-html.png)
 
+ __404 Not Found__
+ ![screenshot of 404 not found](assets/images/screenshot-404.png)
+ 
  ## CSS Validation
 The CSS styles file was validated using The W3C validation Service.
 ![screenshot of css validation](assets/images/screenshot-style-css.png)
