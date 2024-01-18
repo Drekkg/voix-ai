@@ -93,7 +93,8 @@ __Text Input Page__
  
  ## Testing
  - Voix-ai the website was tested on a variety of physical devices: Laptops, larger 27 inch monitors, various Android phones and Tablets. It also looked and performed as expected on a variety of browsers(Edge, Chrome, Firefox, Samsung browser). Responsiveness was tested in Google chrome using numerous emulated devices(Apple iphones, ipads, Google Phones and Samsung devices).
-
+ ## Manual testing
+ Manual testing included:
  - The Github deployed site was checked many times, mainly on mobile devices.
  - The site was called up and the landing page was checked for legibility and responsiveness.
  - The links in the header were clicked to ensure the appropriate page was opened. 
@@ -137,7 +138,7 @@ The website was tested using dev tools and the following emulated and real devic
 |-------------------------------|-------------|------------|---------------|
 | Real phone: S20 Ultra         | Chrome 120  | android 13 | M  412 x 915  |
 |             Hauwei p20        | Chrome 120  | android 11 | M  375 x 768  |
-| Real laptop asus              | Firefox 121 | linux pop  | LG 1920 x1080 |      
+| Real laptop asus              | Firefox 121 | linux pop  | LG1920x1080   | 
 | Dev tools emulator: pixel 7   | chrome 120  | android 13 | M  412 x 915  |
 |                     iPhone 12 | firefox 121 |  iOs 14    | M  428 x 926  |
 |           Samsung galaxy fold | Chrome 120  | android 12 | XS 280 x 653  |
@@ -146,14 +147,26 @@ The website was tested using dev tools and the following emulated and real devic
 | Real computer:  windows pc    | IE Edge 88  | windows 10 | XL 1920 x 964 |
 
 ## Bugs
-__Fixed Bugs__
-- The first pass through the HTML validator threw up an error.
-- I had nested a button element inside an anchor element. Which is not valid HTML.
-- After a bit of searching, I found the correct procedure on Stack Overflow. Wrapping the button element in a form element.
-![screenshot of form](assets/images/screenshot-form-element-new.png)  
+
+I had many bugs dealing with alignment and typos which were quickly fixed during development. Other issues took longer to resolve. The most notable bugs were:
+
+ __HTML Validation__
+ The first pass through the HTML validator threw up an error as I had nested a button element inside an anchor element which is not valid HTML.
+  After a bit of searching, I found the correct procedure on Stack Overflow and wrapped the button element in a form element.
+
+ ![screenshot of form](assets/images/screenshot-form-element-new.png)  
+
+ __404 on favicon image__
+ - I kept seeing an error about the apple-touch-icon. I ended up adding an href to the file in my repository and the problem went away.
+
+__Trailing Slashes__ 
+- I had a lot of trailing slashes in my HTML. My HTML formatter for my IDE kept putting trailing slashes for meta tags, links, inputs, line breaks, images and more. This would cause me to fail validation again and again. I would remove them periodically to solve the problem, but I really need to use another formatter.
+
+
+ 
 
 ## Accessibility Testing
-Voix-ai was tested for accessibilty using Lighthouse.
+Voix-ai was tested for accessibility using Lighthouse.
 
 __Accessibility Audit__
 
