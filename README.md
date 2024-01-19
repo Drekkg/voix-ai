@@ -38,7 +38,7 @@ The focus being on audio quality.
 ### Colour choice
 I chose blue for the header and footer, which has a comfortable, familiar feel. The text is mainly Aliceblue which contrasts nicely with the dark background and the blue, keeping everything accessible.
 The orange button and samples heading, draw attention to themselves so that the user knows where to click
-to hear the samples. 
+to get to the samples page.
 
 
 ## Features
