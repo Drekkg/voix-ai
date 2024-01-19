@@ -212,8 +212,10 @@ __Deployment on GitHub using GitHub Pages__
 ## Credits
 - The footer and responsive menu in the header I re-used code from the "Love Running" project.
 - Stack Overflow for bug fixing and feature implementation.
+- My Mentor Maria Havlicek also suggested some minor code fixes on the sample page. 
 __Content__
 - As the technology showcased on Voix-ai doesn't exist, the content was all self created.
+
 __Media__
 - Samples narrated by Richard Berry.
 - Recorded by Derek Garnett.
