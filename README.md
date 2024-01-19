@@ -32,12 +32,12 @@ To make the intent of commits more obvious, I attempt to used the following pref
 I was working on my laptop and computer at work. I had  merge issues that I could not unwind so I ditched my first repository and started over, hence a large first commit.
  
 ## UX
-I strived to create a sleek, easy to navigate website. Without too much wording on the landing page and a smoky image of a microphone. Invoking an image of a recording studio or a Jazz club.
+I strived to create a sleek, easy to navigate website. Without too much wording on the landing page and a smoky image of a microphone. Invoking a recording studio or a Jazz club.
 The focus being on audio quality.
 
 ### Colour choice
 I chose blue for the header and footer, which has a comfortable, familiar feel. The text is mainly Aliceblue which contrasts nicely with the dark background and the blue, keeping everything accessible.
-The orange button draw attention to itself, advising the user where to click
+The orange button draws attention to itself, advising the user where to click
 to get to the samples page.
 
 
