@@ -18,10 +18,10 @@ https://github.com/Drekkg/voix-ai
 ## Author
 Derek Garnett
 ## Version Control
-GitHub was used as version control for the code of this project.
+GitHub was used as version control of the codebase for this project.
 
 ### Naming Convention
-To make the intent of commits more obvious, I attempt to used the following prefix naming convention for my commits:
+To make the intent of commits more obvious, I attempt to use the following prefix naming convention for my commits:
  - **doc** documentation based commits
  - **fix** bug fixes
  - **feat** new features
@@ -32,13 +32,13 @@ To make the intent of commits more obvious, I attempt to used the following pref
 I was working on my laptop and computer at work. I had  merge issues that I could not unwind so I ditched my first repository and started over, hence a large first commit.
  
 ## UX
-I strived to create a sleek, easy to navigate website. Without too much wording on the landing page and a smoky image of a microphone. Invoking a recording studio or a Jazz club.
+I strove to create a sleek, easy to navigate website. Without a lot of wording on the landing page and a smoky image of a microphone. Invoking a recording studio or a Jazz club.
 The focus being on audio quality.
+The ultimate purpose of the website is to get the user to listen to the samples. 
 
 ### Colour choice
 I chose blue for the header and footer, which has a comfortable, familiar feel. The text is mainly Aliceblue which contrasts nicely with the dark background and the blue, keeping everything accessible.
-The orange button draws attention to itself, advising the user where to click
-to get to the samples page.
+The orange button draws attention to itself, enticing the user to click and navigate to the samples page.
 
 
 ## Features
@@ -180,9 +180,6 @@ I had many bugs dealing with alignment and typos which were quickly fixed during
 __Trailing Slashes__ 
 - I had a lot of trailing slashes in my HTML. My HTML formatter for my IDE kept putting trailing slashes for meta tags, links, inputs, line breaks, images and more. This would cause me to fail validation again and again. I would remove them periodically to solve the problem, but I really need to use another formatter.
 
-
- 
-
 ## Accessibility Testing
 Voix-ai was tested for accessibility using Lighthouse.
 
@@ -222,7 +219,7 @@ __Deployment on GitHub using GitHub Pages__
 ## Credits
 - The footer and responsive menu in the header I re-used code from the "Love Running" project.
 - Stack Overflow for bug fixing and feature implementation.
-- My Mentor Maria Havlicek also suggested some minor code fixes on the sample page.
+- My Mentor Maria Havlicek also suggested some minor code fixes on the samples page.
  
 __Content__
 - As the technology showcased on Voix-ai doesn't exist, the content was all self created.
