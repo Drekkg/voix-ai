@@ -117,23 +117,22 @@ __Text Input Page__
 
  ## HTML Validation
  The HTML was validated using NU HTML Validator.
-
- __Index HTML__
+### Index HTML
  ![screenshot of HTML testing](assets/images/screenshot-index-html.png)
  The first pass failed because of some errors: trailing slashes, incorrectly nested divs.
 
- __Samples HTML__
+### Samples HTML
  ![screenshot of HTML samples testing](assets/images/screenshot-sample-html.png)
  This file had similar problems with trailing slashes.
 
- __Signup Html__
+### Signup Html
  ![screenshot of signup HTML validation](assets/images/screenshot-signup-html.png)
  This file had similar problems with trailing slashes.
 
- __Thank You__
+### Thank You
  ![screenshot of Thank You HTML](assets/images/screenshot-thankyou-html.png)
 
- __404 Not Found__
+### 404 Not Found
  ![screenshot of 404 not found](assets/images/screenshot-404.png)
  
  ## CSS Validation
