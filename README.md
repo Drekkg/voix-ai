@@ -31,6 +31,15 @@ To make the intent of commits more obvious, I attempt to used the following pref
 ### Commits
 I was working on my laptop and computer at work. I had  merge issues that I could not unwind so I ditched my first repository and started over, hence a large first commit.
  
+## UX
+I strived to create a sleek, easy to navigate website. Without too much wording on the landing page and a smoky image of a microphone. Which would hopefully invoke an image of a recording studio or a Jazz club.
+The focus being on audio quality.
+
+### Colour choice
+I chose blue for the header and footer, which has a comfortable, familiar feel. The text is mainly Aliceblue which contrasts nicely with the dark background and the blue, keeping everything accessible.
+The orange button and samples heading, draw attention to themselves so that the user knows where to click
+to hear the samples. 
+
 
 ## Features
 An outline of features the user can expect.
@@ -108,7 +117,8 @@ __Text Input Page__
  - The site was called up and the landing page was checked for legibility and responsiveness.
  - The links in the header were clicked to ensure the appropriate page was opened. 
  - The sample link took me to the samples.html page. 
- - The signup link to signup.html. - The logo-link in the header also works on all pages and takes the user back to the landing page. 
+ - The signup link to signup.html.
+ - The logo-link in the header also works on all pages and takes the user back to the landing page. 
  - The samples work and play in all browsers and on all tested devices. 
  - The sign up form works and requires valid input in all fields.
  - The email field requires a valid email address. 
